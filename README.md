@@ -3,4 +3,4 @@ This program is a simple example of using the FSEvents framework that monitors a
 The program is intentionally simplistic but demonstrates the use of the FSEvents api in a hopefully clear fashion.
 
 To compile:
-    cc -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers -Wall -g -o watcher watcher.c -framework CoreServices -framework CoreFoundation
+    cc -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers -Wall -g -o waiter waiter.c -framework CoreServices -framework CoreFoundation
