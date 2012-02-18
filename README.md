@@ -1,6 +1,12 @@
-This program is a simple example of using the FSEvents framework that monitors a directory hierarchy and keeps track of the total size of data contained in it.  When a directory inside of it changes, it recalculates the size of that directory and updates the total size.
+# Waiter
 
-The program is intentionally simplistic but demonstrates the use of the FSEvents api in a hopefully clear fashion.
+A Mac OS X program that listens for FSEvents on a path and exists when one occurs.
 
 To compile:
-    cc -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Headers -Wall -g -o waiter waiter.c -framework CoreServices -framework CoreFoundation
+
+    make
+
+To run:
+
+    waiter <path-to-watch>
+
